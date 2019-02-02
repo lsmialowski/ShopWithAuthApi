@@ -1,0 +1,15 @@
+{
+  "jwt_secret": "$2y$12$JBjOQxHx5fwPnKng/Lwy0OSeJVmEZCmvjWIPBWpoYD7YVilWsiXNG",
+  "database": {
+    "type": "mysql",
+    "host": "mysql_db",
+    "port": 3306,
+    "username": "root",
+    "password": "smialowski",
+    "database": "shop",
+    "charset": "UTF8_GENERAL_CI"
+  },
+  "winston": {
+    "level": "debug"
+  }
+}

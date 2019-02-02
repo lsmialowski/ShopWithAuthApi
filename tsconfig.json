@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "*": [
+        "types/*"
+      ]
+    },
+    "target": "esnext",
+    "pretty": true,
+    "module": "commonjs",
+    "baseUrl": "./src",
+    "outDir": "./build",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": false,
+    "skipLibCheck": true
+  },
+  "include": [
+    "./src"
+  ]
+}

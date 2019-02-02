@@ -1,0 +1,14 @@
+[{
+  "name": "migration",
+  "type": "mysql",
+  "host": "mysql_db",
+  "port": 3306,
+  "username": "root",
+  "password": "smialowski",
+  "database": "shop",
+  "charset": "UTF8_GENERAL_CI",
+  "migrations": ["build/migrations/*.js"],
+  "cli": {
+    "migrationsDir": "build/migrations"
+  }
+}]

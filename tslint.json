@@ -1,0 +1,78 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "quotemark": [true, "single"],
+    "max-line-length": [true, {
+      "limit": 120,
+      "ignore-pattern": "^import"
+    }],
+    "semicolon": [true, "always"],
+    "curly": true,
+    "no-arg": true,
+    "no-string-literal": false,
+    "no-shadowed-variable": false,
+    "no-eval": true,
+    "no-any": false,
+    "encoding": true,
+    "no-empty": true,
+    "no-empty-interface": false,
+    "new-parens": true,
+    "class-name": true,
+    "no-bitwise": false,
+    "no-debugger": true,
+    "member-access": true,
+    "import-spacing": false,
+    "no-var-keyword": true,
+    "interface-name": [true],
+    "no-var-requires": false,
+    "no-duplicate-super": true,
+    "unified-signatures": true,
+    "max-classes-per-file": [true, 3],
+    "newline-before-return": true,
+    "no-irregular-whitespace": true,
+    "promise-function-async": false,
+    "object-literal-sort-keys": false,
+    "no-angle-bracket-type-assertion": false,
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "triple-equals": [true, "allow-undefined-check"],
+    "prefer-template": [true, "allow-single-concat"],
+    "member-ordering": [false, {"order": "fields-first"}],
+    "no-trailing-whitespace": {"severity": "warning"},
+    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-snake-case"],
+    "one-variable-per-declaration": [true, "ignore-for-loop"],
+    "whitespace": [true, "check-branch", "check-operator", "check-typecast", "check-type"],
+    "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
+    "no-unused-expression": [false, "allow-fast-null-checks", "allow-new"],
+    "only-arrow-functions": [true, "allow-declarations", "allow-named-functions"],
+    "adjacent-overload-signatures": true,
+    "no-conditional-assignment": true,
+    "no-consecutive-blank-lines": [true, 1],
+    "no-console": [true, "log", "error", "debug", "info", "time", "trace", "timeEnd"],
+    "comment-format": [true, "check-space", {"ignore-words": ["TODO", "TODO:"]}],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      },
+      {
+        "call-signature": "onespace",
+        "index-signature": "onespace",
+        "parameter": "onespace",
+        "property-declaration": "onespace",
+        "variable-declaration": "onespace"
+      }
+    ],
+    "ordered-imports": [
+      true,
+      {
+        "named-imports-order": "lowercase-first",
+        "import-sources-order": "lowercase-first"
+      }
+    ],
+    "radix": true
+  }
+}
