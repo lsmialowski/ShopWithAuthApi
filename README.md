@@ -22,6 +22,7 @@ You can override config files values by env variables! For more information read
 
 To manipulate migration connection to database edit ```ormconfig.json```
 
+Import postman collection from ```tools/postman``` to test application.
 
 Author:
 ```luksmialowski@gmail.com```
