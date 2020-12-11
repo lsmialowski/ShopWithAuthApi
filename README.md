@@ -1,5 +1,5 @@
 ## Setup
-To make project as easy at it can be to setup I decided to automate as much as possible, just type 
+To make project as easy as it can be to setup I decided to automate as much as possible, just type 
  ````````  npm run docker```````` and all the magic will be done auto-magicly! :)
     
 ##### Additional commands
